@@ -1,7 +1,5 @@
 import Web3 from 'web3';
 
-const provider = 'https://kovan.infura.io/v3/1edf94718018482aa7055218e84486d7';
-
 let getWeb3 = new Promise(function(resolve, reject) {
   window.addEventListener('load', function() {
     let results;
